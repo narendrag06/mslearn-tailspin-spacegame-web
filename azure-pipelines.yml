@@ -1,10 +1,11 @@
-name: Space Game Web 
+name: Space Game Web Project
 
 trigger:
 - none
 
 pool:
  name: Azure Pipelines
+ vmImage: 'windows-latest'
 
 variables:
  buildConfiguration: 'Release'
